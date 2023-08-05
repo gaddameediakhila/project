@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+#akhi{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%{background-color: red; left: 0px; top:0px;}
+  25%{background-color: yellow; left:200px; top:0px;}
+  50%{background-color: blue; left:200px; top:200px;}
+  75%{background-color: yellow; left:0px; top:200px;}
+  100% {background-color: green; left:0px; top:0px;}
+}
+img{
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1.5;
+}
+    </style>
+</head>
+<body>
+    <h>css animation</h>
+    <div></div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, expedita!</p>
+    <img src="https://media.istockphoto.com/id/1134958685/photo/magic-pink-rhododendron-flowers-on-summer-mountain.jpg?s=1024x1024&w=is&k=20&c=JIpzwmPfK96gbgT7VbP2qCsucUQj_PslSXWNLWLQbOo=" width="200" height="200">
+    <h1>css animation</h1>
+    <p id="akhi"></p>
+
+
+    
+</body>
+</html>

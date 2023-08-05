@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>h1{
+        background-color: blue;
+        padding: 20px;
+        color:azure;
+    }
+    .menu li:hover {
+        background-color: black;
+    }
+    .menu li{
+        padding: 8px;
+        margin-bottom: 7px;
+        background-color: brown;
+        color:beige;
+    }
+    .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .aside
+    {
+        background-color: lightskyblue;
+        padding: 20px;
+        color: aliceblue;
+        text-align: center;
+        font-size: 15px;
+    }
+    .footer{
+        background-color: blueviolet;
+        color: aliceblue;
+        text-align: center;
+        font-size: 12px;
+        padding: 15px;
+    }
+    .row::after{
+        content: "culture";
+        color: aquamarine;
+        border-style: groove;
+        clear: both;
+        display:table;
+    }
+    [class="col-"]{
+        float: left;
+        padding: 15px;
+    }
+    html{
+        font-family:"lucida sans",sans-serif;
+    }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>culture</h1>
+    </div>
+    <div class="row">
+        <div class="col-3 col-3 menu">
+        <ol>
+              <li>folk art</li>
+              <li>medical cure</li>
+              <li>religion</li>
+              <li>food</li>
+              <li>celebratons</li>
+            </ol>
+    </div>
+    <div class="col-3 col-s-9">
+        <h1>culture</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, labore?</p>
+
+    </div>
+    <div class="col-3 col-s-9">
+        <div class="aside">
+            <h2>one way</h2>
+            <p>chaina is a city on the island of create</p>
+            <h2>where</h2>
+            <p>create is a greek island in the mediterranean sea.</p>
+            <h2>how?</h2>
+            <p>you can reach chaina airport from all over europe.</p>
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, excepturi?</p>
+        
+    </div>
+
+          
+           
+</body>
+</html>
